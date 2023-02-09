@@ -1,0 +1,72 @@
+Configuration	B2201_DCmotorCont
+STM32CubeMX 	6.7.0
+Date	02/07/2023
+MCU	STM32L010K4Tx
+
+
+
+PERIPHERALS	MODES	FUNCTIONS	PINS
+ADC	IN5	ADC_IN5	PA5
+LPUART1	Asynchronous	LPUART1_RX	PA0-CK_IN
+LPUART1	Asynchronous	LPUART1_TX	PB6
+LPUART1	Hardware Flow Control (RS485)	LPUART1_DE	PB1
+SYS	Serial_Wire	SYS_SWCLK	PA14
+SYS	Serial_Wire	SYS_SWDIO	PA13
+SYS	SysTick	SYS_VS_Systick	VP_SYS_VS_Systick
+
+
+
+Pin Nb	PINs	FUNCTIONs	LABELs
+3	PC15-OSC32_OUT	GPIO_Output	LED_D2
+6	PA0-CK_IN	LPUART1_RX	
+11	PA5	ADC_IN5	TorqueSens
+15	PB1	LPUART1_DE	
+23	PA13	SYS_SWDIO	
+24	PA14	SYS_SWCLK	
+29	PB6	LPUART1_TX	
+PERIPHERALS	MODES	FUNCTIONS	PINS
+ADC	IN5	ADC_IN5	PA5
+LPUART1	Asynchronous	LPUART1_RX	PA0-CK_IN
+LPUART1	Asynchronous	LPUART1_TX	PB6
+LPUART1	Hardware Flow Control (RS485)	LPUART1_DE	PB1
+SYS	Serial_Wire	SYS_SWCLK	PA14
+SYS	Serial_Wire	SYS_SWDIO	PA13
+SYS	SysTick	SYS_VS_Systick	VP_SYS_VS_Systick
+
+
+
+Pin Nb	PINs	FUNCTIONs	LABELs
+3	PC15-OSC32_OUT	GPIO_Output	LED_D2
+6	PA0-CK_IN	LPUART1_RX	
+11	PA5	ADC_IN5	TorqueSens
+15	PB1	LPUART1_DE	
+23	PA13	SYS_SWDIO	
+24	PA14	SYS_SWCLK	
+29	PB6	LPUART1_TX	
+
+
+
+SOFTWARE PROJECT
+
+Project Settings : 
+Project Name : B2201_DCmotorCont
+Project Folder : C:\Sandbox\B2201_DCmotorCont
+Toolchain / IDE : STM32CubeIDE
+Firmware Package Name and Version : STM32Cube FW_L0 V1.12.1
+
+
+Code Generation Settings : 
+STM32Cube MCU packages and embedded software packs : Copy only the necessary library files
+Generate peripheral initialization as a pair of '.c/.h' files per peripheral : No
+Backup previously generated files when re-generating : No
+Delete previously generated files when not re-generated : Yes
+Set all free pins as analog (to optimize the power consumption) : No
+
+
+Toolchains Settings : 
+Compiler Optimizations : 
+
+
+
+
+
